@@ -1,0 +1,11 @@
+# RAG Evaluation Suite Requirements
+
+# Core dependencies
+requests>=2.31.0
+numpy>=1.24.0
+
+# Note: Requires Ollama running locally
+# Install: https://ollama.com/download
+# Models needed:
+#   ollama pull llama3.2
+#   ollama pull nomic-embed-text
